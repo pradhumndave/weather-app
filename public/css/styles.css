@@ -1,0 +1,40 @@
+body {
+  color: brown;
+  font-family: Arial, sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main-content {
+  flex-grow: 1;
+}
+
+footer {
+  color: rgb(187, 85, 85);
+  border-top: 2px solid #eeeeee;
+  margin-top: 1rem;
+  padding: 1rem 0;
+}
+
+header {
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+header a {
+  color: rgb(187, 85, 85);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+header a:hover {
+  color: brown;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
